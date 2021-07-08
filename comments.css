@@ -1,0 +1,43 @@
+.comment img{
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    object-fit:cover;
+    float: left;
+}
+.commentInfo{
+    float: left;
+    margin-left: 5px;
+}
+.comment p{
+    font-size: 20px;
+}
+.comment{
+    display: inline-block;
+    margin-bottom: 30px;
+    background: rgba(85, 84, 84, 0.233);
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
+.leftColumn{
+    float: left;
+    width:calc(50% - 20px);
+}
+.rightColumn{
+    float: right;
+    width: 50%;
+    margin-left: 20px;
+}
+main{
+    margin-top: 100px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width:600px){
+    .leftColumn,.rightColumn{
+        width: 100%;
+    }
+    
+}
